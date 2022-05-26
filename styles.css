@@ -1,0 +1,195 @@
+
+<style>
+    {
+        margin: 0;
+        padding: 0;
+        border-collapse: 0;
+        border: none;
+        
+    }
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+  
+    body, textarea, button{
+    font-family: 'Space Mono', monospace;
+    
+}
+   
+    #barraSuperior {
+    width:100% ;
+    max-width:720px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+    display: grid;
+    padding: 12px;
+    background: #5d445f;
+    justify-items:center;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); }
+
+#titulo {
+    color:#e5b1d2;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    border-right: 2px solid rgba(255, 255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+    font-size: 1.5em;
+}
+
+body{
+  @media screen (max-width: $screen-lg)
+  display: flex;
+  height: 90%;
+  background-color:#3e314b;
+  vertical-align: middle;
+  width: 75% auto;
+  
+}
+
+main{
+ @media screen (max-width: $screen-lg)
+ display: flex;
+ flex-wrap: wrap;
+ 
+
+ 
+  }
+
+.txt_box{
+    display:inline;
+    width: 105%;
+  
+      
+    }
+    
+    
+   
+::placeholder {
+    color: white;
+}
+ 
+#txt.bg-none {
+  background-image: none;
+
+}
+.button_boxCript{
+  margin-left: 7px;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin: 50px;
+  letter-spacing: 0.08em;
+  
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+
+
+.popup .popuptext{
+  visibility: hidden;
+  width: 195px;
+  background-color: #976275;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 100px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;}
+
+
+
+
+.popup .show  {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+#textinput,#textoutput{
+    margin-top: 10px;
+    display: inline;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    outline: none;
+    width: 100vw;
+    height: 35vh;
+    resize: none;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #945f82;
+    text-transform: lowercase;
+    color: #ffffc3;
+}
+
+
+#btn_cript,#btn_descript,#btn_copia{
+padding: 2px;
+border: 1px solid black;
+border-radius: 5px 5px;
+font-size: 15px;
+font-weight: 100;
+width: 30vw;
+height: 5vh;
+background-color: #5d445f;
+color: #ededde;
+outline: 1; 
+transition: all .3s ease-out; 
+box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); }
+
+
+ .alerta {
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+    user-select: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffc3;
+ }
+ 
+
+ #barraInferior {
+    width:100% ;
+    max-width:720px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+    display: grid;
+    padding: 8px;
+    background: #5d445f;
+    justify-items:center;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); }
+
+</style>
