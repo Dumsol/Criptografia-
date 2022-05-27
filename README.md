@@ -27,3 +27,16 @@ Este é um Sistema de codificação de palavras, que utiliza se de criptografar 
 - `Vogal o: `Transforma em : ober
 - `Vogal u: `Transforma em : ufat
 ___ 
+###  <div align="center">:computer: Prévia do projeto:computer:</div>
+<div align="center"><a href="https://github.com/dumsol/criptografia-#readme"><img src="Img/example.gif" width="280" alt="Prévia Do Sistema Funcionando"></a></div>
+<br>
+Abaixo está uma visualização estática do projeto
+
+<br> 
+<div align="center"><a href="Https://github.com/Dumsol/criptografia-#readme"><img src="Img/Screenshot.png" width="280" alt="Visualização Estática"></a</div>
+
+
+
+### <div align="center">:star::star::star:</div> 
+
+### <div align="center">[![Estrelas](https://shields.io/badge/Estrelas-Veja%20quem%20já%20%20deu%20estrelas%20%20E%20Deixe%20a%20sua%20Também-red)](https://github.com/dumsol/criptografia/stargazers)</div>
