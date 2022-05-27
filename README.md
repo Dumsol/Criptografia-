@@ -1,6 +1,6 @@
-# 🔒 Codificiador 🔒 
+#  🔒 Codificiador 🔒
 <br>
-🟣Projeto Decodificador Alura Challenge Oracle ONE 🟣
+<div align="center">🟣Projeto Decodificador Alura Challenge Oracle ONE 🟣 </div>
 
 <div id="header" align="center">
 <img src="Img/banner.gif"  height="100" width="300"/>
